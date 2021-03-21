@@ -1,0 +1,35 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+
+section{
+    width: 80vw;
+    margin: 100px auto;
+}
+
+
+section div{
+    text-align: center;
+}
+section div button{
+    background-color: #fae1dd;
+    font-size: larger;
+    border: 2px solid #ffba08;
+    border-radius: 5px;
+    color:#606c38;
+    padding: 15px 30px;
+    margin: 180px 0 ;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+
+section button:hover{
+    /* transform: scale(1.1); */
+    transform: translateY(-2px);
+    background-color: #ffd6a5;
+    box-shadow: 0 8px 10px 0 #ffba08 , 0 8px 3px 0 #ffba08 ;
+    color: #283618;
+}
